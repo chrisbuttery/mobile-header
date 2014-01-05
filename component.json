@@ -1,0 +1,11 @@
+{
+  "name": "mobile-header",
+  "version": "0.3.0",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/hamburger.svg",
+    "images/logo.svg"
+  ]
+}

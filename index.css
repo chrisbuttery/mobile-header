@@ -1,0 +1,33 @@
+.mobile-header {
+  background: #228b07;
+  background: linear-gradient(to bottom,#228b07,#1f7d07);
+  position: relative;
+  height: 39px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.4);
+  border-radius: 5px 5px 0 0;
+}
+
+.mobile-header__logo {
+  position: absolute;
+  background: url(images/logo.svg) no-repeat 0 0;
+  background-size: 45px 25px;
+  height: 25px;
+  width: 45px;
+  left: 50%;
+  margin-left: -22.5px;
+  top: 8px;
+  text-indent: -9999em;
+}
+
+.mobile-header__button {
+  background: url(images/hamburger.svg) no-repeat 0 0;
+  background-size: 18px 16px;
+  display: block;
+  height: 16px;
+  width: 18px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin-top: -8px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
